@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <p class="txt40 text-center mt-3">
-                        <asp:Button ID="nextButton" runat="server" Text="Start widtdrawal" OnClick="nextButton_Click" CssClass="btn btn-info btn-rounded" />
+                        <asp:Button ID="nextButton" runat="server" Text="Start withdrawal" OnClick="nextButton_Click" CssClass="btn btn-info btn-rounded" />
                     </p>
                 </div>
             </div>
@@ -65,7 +65,7 @@
         <asp:View ID="resultView" runat="server">
             <div class="row">
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <button class="btn btn-info btn-lg btn-circle" ID="previusLinkButton" runat="server" onclick="previusLinkButton_Click"><i class="fa fa-long-arrow-left"></i></button>
+                    <button class="btn btn-info btn-lg btn-circle" ID="previusLinkButton" runat="server" onserverclick="previusLinkButton_Click"><i class="fa fa-long-arrow-left"></i></button>
                     
                 </div>
                  <div class="col-sm-6 col-md-6 col-lg-6 text-center">

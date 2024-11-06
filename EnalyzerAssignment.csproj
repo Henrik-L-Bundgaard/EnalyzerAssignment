@@ -183,6 +183,7 @@
     <None Include="packages.config" />
     <Content Include="Styles\bootstrap.css.map" />
     <Content Include="Styles\bootstrap.min.css.map" />
+    <Content Include="PDF\Enalyzer ATM assignment.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
