@@ -1,11 +1,19 @@
 ﻿body {
     Font-family: "Helvetica Neue","Helvetica,Arial","Sans-serif";
-    background-color: #2bbed3;
+    
     /* Font-sizes: 40px/80pxStyles: Normal/Bold Add fade transition on hover effects Blue: #2bbed3*/
 }
-.btn40{
-    font-size:40px;
+.txt40 {
+    font-size: 40px;
+    color: white;
 }
-.btn80{
-    font-size:80px;
+.txt80 {
+    font-size: 80px;
+    color: white;
+}
+.blue {
+    background-color: #2bbed3;
+}
+.error {
+    background-color: red;
 }

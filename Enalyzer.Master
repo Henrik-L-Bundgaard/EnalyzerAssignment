@@ -8,15 +8,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="/Styles/style.css" rel="stylesheet">
+    <link href="/Styles/Styles.css" rel="stylesheet" />
+    <link href="/Styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Styles/animate.css" rel="stylesheet">
+    <link href="/font-awesome/css/font-awesome.css" rel="stylesheet">
+    
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body class="blue">
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 text-center">
+                <span class="txt80">Enalyzer ATM</span>
+                <br />
+                <span class="txt40 red-bg"><asp:Literal ID="messageLiteral" runat="server"></asp:Literal></span>
+            </div>
+             <div class="col-sm-4 col-md-4 col-lg-4">
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 text-center">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+
+
+            </div>
         </div>
     </form>
+    
 </body>
 </html>
